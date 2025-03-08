@@ -17,6 +17,7 @@ export default function About() {
                     data-rel="lightcase:myCollection"
                   >
                     <img
+                      className="img-size"
                       src="assets/img/slide/1_1.webp"
                       alt="Image"
                       decoding="async"
@@ -30,6 +31,7 @@ export default function About() {
                     data-rel="lightcase:myCollection"
                   >
                     <img
+                      className="img-size"
                       src="assets/img/slide/2_1.webp"
                       alt="Image"
                       decoding="async"
@@ -43,6 +45,7 @@ export default function About() {
                     data-rel="lightcase:myCollection"
                   >
                     <img
+                      className="img-size"
                       src="assets/img/slide/3_1.webp"
                       alt="Image"
                       decoding="async"
@@ -56,6 +59,7 @@ export default function About() {
                     data-rel="lightcase:myCollection"
                   >
                     <img
+                      className="img-size"
                       src="assets/img/slide/4_1.webp"
                       alt="Image"
                       decoding="async"
@@ -69,6 +73,7 @@ export default function About() {
                     data-rel="lightcase:myCollection"
                   >
                     <img
+                      className="img-size"
                       src="assets/img/slide/5_1.webp"
                       alt="Image"
                       decoding="async"
@@ -82,6 +87,7 @@ export default function About() {
                     data-rel="lightcase:myCollection"
                   >
                     <img
+                      className="img-size"
                       src="assets/img/slide/6_1.webp"
                       alt="Image"
                       decoding="async"
@@ -95,6 +101,7 @@ export default function About() {
               >
                 <div className="single-small-img">
                   <img
+                    className="img-size-small"
                     src="assets/img/slide/1.webp"
                     alt="Image"
                     decoding="async"
@@ -102,6 +109,7 @@ export default function About() {
                 </div>
                 <div className="single-small-img">
                   <img
+                    className="img-size-small"
                     src="assets/img/slide/2.webp"
                     alt="Image"
                     decoding="async"
@@ -109,6 +117,7 @@ export default function About() {
                 </div>
                 <div className="single-small-img">
                   <img
+                    className="img-size-small"
                     src="assets/img/slide/3.webp"
                     alt="Image"
                     decoding="async"
@@ -116,6 +125,7 @@ export default function About() {
                 </div>
                 <div className="single-small-img">
                   <img
+                    className="img-size-small"
                     src="assets/img/slide/4.webp"
                     alt="Image"
                     decoding="async"
@@ -123,6 +133,7 @@ export default function About() {
                 </div>
                 <div className="single-small-img">
                   <img
+                    className="img-size-small"
                     src="assets/img/slide/5.webp"
                     alt="Image"
                     decoding="async"
@@ -130,6 +141,7 @@ export default function About() {
                 </div>
                 <div className="single-small-img">
                   <img
+                    className="img-size-small"
                     src="assets/img/slide/6.webp"
                     alt="Image"
                     decoding="async"
