@@ -1,0 +1,206 @@
+body {
+  font-family: "Cairo", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+:root {
+  --ltn__heading-font: "Cairo", serif;
+  --ltn__body-font: "Cairo", serif;
+}
+.arfont {
+  font-family: "Cairo", serif;
+}
+
+.ltn__header-top-area .ltn__social-media ul li {
+  font-size: 14px;
+  margin: 0 0 0 10px;
+}
+.ltn__social-media ul li:last-child {
+  margin: 0 0 0 0;
+}
+.text-end {
+  text-align: left !important;
+}
+.ltn__top-bar-menu > ul > li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 0 0 30px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.ltn__top-bar-menu > ul > li:last-child {
+  margin-left: 0;
+}
+.ltn__product-item-4 .product-description p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: inherit;
+}
+.ltn__product-item-4 .product-info {
+  min-height: 200px;
+}
+
+.circle-custom {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  border-right: 0;
+  border-radius: 18px;
+  font-size: 16px;
+  background-color: var(--section-bg-1);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+}
+[dir="rtl"] .slick-slide {
+  float: left;
+}
+.ltn__list-item-half li i {
+  font-size: 20px;
+  color: var(--ltn__secondary-color);
+  margin-left: 15px;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  background-color: var(--ltn__color-6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 45px;
+  flex: 0 0 45px;
+  border-radius: 100%;
+}
+.ltn__callout {
+  padding: 20px;
+  margin: 25px 0;
+  border-right: 4px solid;
+  border-left: 0px;
+  border-color: var(--ltn__secondary-color);
+}
+.ltn__list-item-half {
+  margin-top: 0;
+  padding-right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+.ltn__list-item-half li {
+  width: 50%;
+  float: left;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+.title-2 {
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 600;
+  border-right: 2px solid;
+  border-left: 0px;
+  border-color: var(--ltn__secondary-color);
+  padding-right: 10px;
+}
+
+.input-item.ltn__custom-icon::before {
+  position: absolute;
+  top: 35%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 20px;
+  right: inherit;
+  color: var(--ltn__secondary-color);
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+textarea {
+  background-color: var(--white);
+  border: 2px solid;
+  border-color: var(--border-color-9);
+  height: 45px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding-right: 20px;
+  font-size: 16px;
+  color: var(--ltn__paragraph-color);
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 0;
+  padding-left: 40px;
+}
+.ltn__list-item-2-img li {
+  margin-left: 10px;
+  width: 30%;
+  margin-right: 0px;
+}
+.ltn__list-item-1-before li::before {
+  position: absolute;
+  content: "";
+  right: -30px;
+  left: inherit;
+  width: 15px;
+  height: 1px;
+  background-color: var(--ltn__secondary-color);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.ltn__copyright-menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 20px;
+  margin-right: 0px;
+  font-size: 14px;
+  font-family: var(--ltn__heading-font);
+  font-weight: 600;
+}
+.ltn__video-bg-img {
+  min-height: 550px;
+}
+.modal-header .close {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  padding: 0;
+  left: 16px;
+  right: auto;
+  top: 16px;
+  opacity: 1;
+  z-index: 1;
+  -webkit-transition: all 0.3sease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3sease 0s;
+}
+
+.ltn__main-menu > ul > li {
+  display: inline-block;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 0px;
+}

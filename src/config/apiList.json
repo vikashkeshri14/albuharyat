@@ -1,0 +1,4 @@
+{
+  "search": "/api/search.php",
+  "sendmail": "/api/sendmail.php"
+}
